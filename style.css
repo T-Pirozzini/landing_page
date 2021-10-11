@@ -1,0 +1,138 @@
+/* global styles */
+* {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* typography (h1, h2, a, etc)*/
+
+h2, h3, h4, h5, h6 {
+    text-align: center;
+    margin: 0;
+}
+
+h3 {
+    font-style: italic;
+}
+
+p {
+    width: 300px;
+    text-align: left;
+    font-style: oblique;
+    padding: 10px;
+}
+
+p .recruit {
+    font-size: 32px;
+}
+
+
+/* layout (header, sections, footer - in order)*/
+
+header, footer {
+    background: #1F2937;
+    color: white;
+    padding: 50px;
+    margin-bottom: 50px;
+}
+
+.container-header {
+    display: flex;
+    justify-content: center;
+    display: flex;
+}
+
+.campaign {
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 24px;
+    padding: 0px, 50px;
+}
+
+.info1 {
+    font-style: italic;
+    font-size: 18px;
+    text-align: left;
+    width: 600px;
+    padding: 0px 50px;
+}
+
+.info2 {
+    width: 600px;
+    font-size: 18px;
+    justify-content: flex-start;
+    padding: 0px 50px;
+}
+
+.icewind-dale {
+    border: none;
+    width: 200px;
+    height: 200px;   
+}
+
+.container-one{ 
+    padding: 50px 250px;
+   
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    flex-wrap: nowrap;
+}
+
+img, one, two, three, four {
+    color: #3882f6;
+    border-style: solid;
+    border-radius: 5px;
+    width: 300px;
+    height: 300px; 
+}
+
+.quote {
+    background: #E5E7EB;
+    padding: 50px 450px;
+    font-style: italic;
+    font-family: cursive;
+    font-size: 28px;
+    text-align: center;
+}
+
+span {
+    font-style: normal;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 16px;
+}
+
+.action {
+    background: #3882F6;
+    color: white;
+    border-radius: 5px;
+    padding: 25px;
+    margin: 50px 600px;
+    text-align: center;  
+    
+    
+}
+
+div .join {
+    font-size: 28px;
+    font-weight: 600;
+    
+ }
+
+div .apply {
+    font-size: 18px;
+    font-style: italic;
+}
+
+.button {
+    background: #3882F6;
+    color: white;
+    border-style: solid;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.button:hover {
+    background: lightblue;
+}
+
+/* components (buttons, hover etc. flare) */
