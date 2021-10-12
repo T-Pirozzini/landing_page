@@ -1,5 +1,8 @@
 /* global styles */
 * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -75,7 +78,7 @@ header, footer {
     display: flex;
     justify-content: space-around;
     align-content: center;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
 }
 
 img, one, two, three, four {
